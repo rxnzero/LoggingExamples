@@ -1,14 +1,17 @@
 package com.dhlee.logging.log4j2;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+//import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.ThreadContext;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 public class RoutingAppenderTest {
 
-	Logger log = LogManager.getLogger(this.getClass().getCanonicalName());
+//	Logger log = LogManager.getLogger(this.getClass().getCanonicalName());
+	static Logger log = LoggerFactory.getLogger(RoutingAppenderTest.class);
 	public RoutingAppenderTest() {
-		// TODO Auto-generated constructor stub
+
 	}
 
 	public static void main(String[] args) {

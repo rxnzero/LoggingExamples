@@ -22,8 +22,9 @@
   </Appenders>
   <Loggers>
     <logger additivity="false" level="debug" name="com.dhlee.logging.log4j2">
-        <appenderref ref="RoutingAppender">
-    </appenderref></logger>
+        <AppenderRef ref="RoutingAppender"></AppenderRef>
+        <AppenderRef ref="STDOUT"/>
+    </logger>
     <Root level="INFO">
       <AppenderRef ref="STDOUT" />
     </Root>
