@@ -3,10 +3,11 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_172"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="resources"/>
-	<classpathentry kind="lib" path="lib/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.25.jar" sourcepath="C:/Users/elink/AppData/Local/Temp/.org.sf.feeling.decompiler1646005998368/source/slf4j-api-1.7.25-sources.jar"/>
 	<classpathentry kind="lib" path="lib/log4j-api-2.14.1.jar"/>
-	<classpathentry kind="lib" path="lib/log4j-core-2.14.1.jar"/>
-	<classpathentry kind="lib" path="lib/log4j-slf4j-impl-2.14.1.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-core-2.14.1.jar" sourcepath="C:/Users/elink/AppData/Local/Temp/.org.sf.feeling.decompiler1646179923177/source/log4j-core-2.14.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-slf4j-impl-2.14.1.jar" sourcepath="C:/Users/elink/AppData/Local/Temp/.org.sf.feeling.decompiler1646005998368/source/log4j-slf4j-impl-2.14.1-sources.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-jcl-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/disruptor-3.4.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
