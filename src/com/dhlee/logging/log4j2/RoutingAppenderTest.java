@@ -26,7 +26,7 @@ public class RoutingAppenderTest {
 	    MDC.put("groupId", groupId);
 	    MDC.put("threadId", threadId);
 	    
-	    log.info("Parsing file " + threadId + " from " + groupId);
+	    log.info("Parsing file " + threadId	    		+ " from " + groupId);	
 	    log.info("Uploading data from " + threadId + " from " + groupId);
 	    log.info("Generating invoices from " + threadId + " from " + groupId);
 	    log.info("Processing completed **** " + threadId + " from " + groupId);
@@ -35,5 +35,8 @@ public class RoutingAppenderTest {
 	    
 	    MDC.remove("groupId");
 	    MDC.remove("threadId");
+	 // will cause the nested appender reach end-of-life. It will
+	    // linger for a few seconds.
+	    
 	}
 }

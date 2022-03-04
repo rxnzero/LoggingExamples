@@ -17,6 +17,8 @@
 	                    </Policies> 
 	              	</RollingFile>
 				</Route>
+				<IdlePurgePolicy timeToLive="15" timeUnit="minutes"/>
+				<!-- https://logging.apache.org/log4j/2.x/manual/appenders.html#RoutingAppender -->
 			</Routes>
 		</Routing>
   	</Appenders>
